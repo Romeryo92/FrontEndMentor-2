@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,400;1,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Overpass', sans-serif;
+    font-size: 15px;
+    background-color: hsl(216, 12%, 8%);
+}
+
+h1,
+h2 {
+  color: #fff;
+}
+
+p {
+    line-height: 1.8;
+    color: hsl(217, 12%, 63%);
+    margin-bottom: 2rem;
+}
+  
+.container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.state_start, .thank-you {
+    background-image: linear-gradient(to bottom,hsl(212, 18%, 14%),hsl(220, 16%, 11%));
+    max-width: 400px;
+    padding: 2rem;
+    border-radius: 0.625rem;
+}
+
+.image {
+    width: 60px;
+    height: 55px;
+    background-color: hsl(213, 19%, 18%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    margin-bottom: 2rem;
+}
+
+button {
+    font-family: inherit;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.btn {
+    background-color: hsl(213, 19%, 18%);
+    width: 3rem;
+    height: 3rem;
+    margin-right: 1rem;
+    color: #ffffff;
+    border: none;
+    outline: none;
+    border-radius: 50%;
+    padding-top: 0.3rem;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background-color: hsl(25, 97%, 53%);
+}
+
+.btn:focus {
+    background-color: hsl(217, 12%, 63%);
+}
+
+.btn-submit {
+    background-color: hsl(25, 97%, 53%);
+    padding: 0.625rem 2rem .5rem;
+    width: 95%;
+    border: none;
+    border-radius: 30px;
+    color: #fff;
+    margin-top: 2rem;
+    transition: 0.3s;
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+    font-size: 0.9rem;
+}
+  
+.btn-submit:hover {
+    background-color: #fff;
+    color: hsl(25, 97%, 53%);
+}
+
+.thank-you {
+    text-align: center;
+}
+
+.thank-you img {
+    margin: 0 auto 1rem;
+}
+
+#rating {
+    margin: 5px;
+    font-size: 1rem;
+}
+
+p.gray {
+    background-color: hsl(213, 19%, 18%);
+    color: hsl(25, 97%, 53%);
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 30px;
+}
+
+.thank-you h2 {
+    margin-top: 1rem;
+}
+
+.thank-you p {
+    margin: 0 auto;
+}  
+
+.hidden {
+    display: none;
+}
